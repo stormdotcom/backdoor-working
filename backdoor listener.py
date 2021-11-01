@@ -26,7 +26,7 @@ class Listener:
         json_data = ""
         while True:
             try:
-                json_data = json_data + self.connection.recv(1024)
+                json_data = json_data + self.connection.recv(1024) #getting  1kb of data at a instant of time
                 return json.loads(json_data)
             except ValueError:
                 continue
