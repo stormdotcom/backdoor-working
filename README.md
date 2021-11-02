@@ -7,5 +7,5 @@ a simple backdoor for learning how malware RAT works, not for attacking real stu
 
 **To know more:** 
 
-A documentation about [Malwares and how they works](https://ajmal-nasumudeen.medium.com/how-to-protect-your-pcs-from-viruses-types-of-malwares-malware-detection-and-security-9b6c64e6571a) written by myself
+A documentation about [Malwares and how they works](https://ajmal-nasumudeen.medium.com/how-to-protect-your-pcs-from-viruses-types-of-malwares-malware-detection-and-security-9b6c64e6571a) prepared by me
 
